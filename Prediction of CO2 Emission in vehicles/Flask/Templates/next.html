@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Barlow Condensed', sans-serif;
+            
+        }
+        .main {
+            height: 100vh;
+            width: 100vw;
+        }
+        .main .nav{
+            background: #000;
+            color: white;
+            padding: 1rem;
+        }
+        .main .outer {
+            height: 90vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <section class="main">
+        <div class="nav">
+            <h2><a href="/">Prediction of CO2 Emission in Vehicles</a></h2>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <div class="res">
+                    <h1>
+               The Emitted CO2 Amount is  {{x}}
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
